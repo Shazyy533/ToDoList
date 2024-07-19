@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #341634; /* Aqua color */
+}
+
+.BUTTON {
+  margin-left: 20px;
+  width: 150px;
+  padding: 10px; /* Added padding for better appearance */
+  background-color: #3b1407; /* Green color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.R{
+  position: relative;
+  width: 150px;
+  margin-top: 10px;
+  align-self: center;
+  margin-left: 200px;
+  padding: 10px; /* Added padding for better appearance */
+  background-color: #5a3126; /* Orange color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.List {
+  overflow: auto; /* Make the list scrollable */
+  max-height: 300px; /* Limit the height for better user experience */
+  padding: 10px; /* Added padding for better appearance */
+}
+
+.Box {
+  padding: 20px;
+  margin: 20px auto;
+  border: 5px solid black;
+  width: 100%; /* Adjusted width for better responsiveness */
+  max-width: 800px; /* Set a maximum width for better readability */
+  border-radius: 20px; /* Adjusted border radius for better appearance */
+  background-color: #333; /* Dark background color */
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  flex-direction: column; /* Allow content to stack vertically */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  color: #ffcc00; /* Yellow color for code text */
+}
